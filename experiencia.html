@@ -1,63 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mi experiencia</title><link rel="stylesheet" href="styles.css"></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Experiencia - Emiliano Ríos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
 <body>
-  <header class="header" role="banner">
-    <div class="wrap">
-      <div class="brand">
-        <div class="logo">ER</div>
-        <div>
-          <h1>Emiliano Ríos</h1>
-          <p>Diseño Industrial — PUCV</p>
-        </div>
-      </div>
 
-      <nav class="nav" role="navigation" aria-label="Main">
-        <a href="index.html">Inicio</a>
-        <a href="sobre.html">Sobre mí</a>
-        <a href="habilidades.html">Habilidades</a>
-        <a href="experiencia.html">Mi experiencia</a>
-        <a href="destacados.html">Proyectos destacados</a>
-        <a href="proyectos.html">Proyectos</a>
-        <a href="travesias.html">Travesías</a>
-        <a href="lefun.html">Travesía Lefun</a>
-        <a href="mehuin.html">Travesía Mehuin</a>
-        <a href="wiki.html">Wiki Casiopea</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
+<header class="header">
+  <div class="logo">Emiliano Ríos</div>
+  <nav>
+    <a href="index.html">Inicio</a> 
+  </nav>
+</header>
 
-      <input id="m4" class="menu-toggle" type="checkbox" />
-      <label for="m4" class="hamburger" aria-hidden>☰</label>
+<main class="container experience-page">
+    
+    <div class="page-subheader">
+        <span class="page-title">Mi experiencia</span>
+        <span class="subheader-right-link"><a href="index.html">Inicio</a></span>
     </div>
 
-    <div class="nav-mobile container" aria-hidden>
-      <a href="index.html">Inicio</a>
-      <a href="sobre.html">Sobre mí</a>
-      <a href="habilidades.html">Habilidades</a>
-      <a href="experiencia.html">Mi experiencia</a>
-      <a href="destacados.html">Proyectos destacados</a>
-      <a href="proyectos.html">Proyectos</a>
-      <a href="travesias.html">Travesías</a>
-      <a href="lefun.html">Travesía Lefun</a>
-      <a href="mehuin.html">Travesía Mehuin</a>
-      <a href="wiki.html">Wiki Casiopea</a>
-      <a href="contacto.html">Contacto</a>
-    </div>
-  </header>
+    <section class="experience-banner">
+        <img src="imagenes/portales.png" alt="Render proyecto" /> 
+    </section>
 
-  <main class="container">
-    <section class="hero"><h2>Mi experiencia</h2><p class="text-muted">Aquí puedes listar talleres, fechas y enlaces a las wikis del campus.</p></section>
+    <div class="experience-content columns">
+      <div class="experience-column column">
+        <h3>HABILIDADES</h3>
+        <ul>
+          <li>Renders</li>
+          <li>Diseño asistido por computadora (CAD)</li>
+          <li>Construcción de producto</li>
+          <li>Administración de herramientas digitales</li>
+          <li>Gestión de proyectos</li>
+          <li>Comunicación y colaboración</li>
+        </ul>
+      </div>
 
-    <div class="card"><h3 class="section-title">Talleres realizados</h3>
-      <ul class="text-muted" style="padding-left:18px;text-align:left;">
-        <li>Taller de Observación — 2022</li>
-        <li>Taller del Habitar — 2022</li>
-        <li>Taller Topológico Multiescalar — 2023</li>
-        <li>...más talleres (2024 - 2025)</li>
-      </ul>
-    </div>
+      <div class="experience-column column">
+        <h3>TALLERES REALIZADOS</h3>
+        <ul>
+          <li><a href="#">Taller de Observación Fundamento y Forma 2022 S1</a></li>
+          <li><a href="#">Taller del Habitar S2 2022</a></li>
+          <li><a href="#">Taller Topológico Multiescalar 2023</a></li>
+          <li><a href="#">Taller de la Diversión del Hábito 2023</a></li>
+          <li><a href="#">Taller de Fabricación 2024 S1</a></li>
+          <li><a href="#">Taller de Diseño de Servicios 2024</a></li>
+          <li><a href="#">Taller de Fabricación 2024 S1</a></li>
+          <li><a href="#">Taller de Personas y Territorios 2025</a></li>
+          <li><a href="#">Taller de Espacios Expositivos 2025</a></li>
+        </ul>
+      </div>
+    </div>
+</main>
 
-    <footer class="footer">© Emiliano Ríos — Portafolio 2025</footer>
-  </main>
 </body>
 </html>
